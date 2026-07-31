@@ -1,0 +1,20 @@
+const userId = "256"
+let userName = "Abc"
+var userPassword = "abc123"
+userCity = "Delhi"
+let userState;
+
+// userId = "564"
+
+userName = "Bcd"
+userPassword = "bc123"
+userCity = "Goa"
+userState = "Pune"
+
+console.log(userId);
+
+console.table([userId, userName, userPassword, userCity, userState])
+
+/*
+Always prefer let keyword because of issue block and functional scope
+*/
