@@ -1,5 +1,7 @@
 "use strict"; // treat all code as per new standard
 
+// datatypes are based on the store value
+
 let userName = "Abhi"
 let userId = 345
 let isLoggedIn = true
