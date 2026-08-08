@@ -71,3 +71,24 @@ const userDetails = [
 // console.log(userDetails[2].email);
 // console.log(Object.keys(userDetails));
 // console.log(Object.values(userDetails));
+
+
+/*** Object De-structring *****/
+const courseDetail = {
+    courseName : "JS",
+    coursePrice : 999,
+    courseInstructor : "Hitesh"
+}
+
+courseDetail.courseInstructor
+// console.log(courseDetail.courseInstructor);
+
+// if we have to use this 3-4 times we have to use repeat like "courseDetail.courseInstructor" which quite big syntax. To aovid this we use de-structring
+
+// const {courseInstructor} = courseDetail
+const {courseInstructor : instructor} = courseDetail //we can rename it is well
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+/*--- whenever you see curly braces inside parenteses, you should understand de-structing happen here ({})---*/
