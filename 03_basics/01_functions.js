@@ -50,3 +50,36 @@ function loginUserMsg (username = "Sam") {
 
 // console.log(loginUserMsg("abc"));
 // console.log(loginUserMsg()); // if value is empty its return "undefined"
+
+
+function itemsPrices (num1, num2, ...num) {
+    return num
+}
+
+// console.log(itemsPrices(10, 20, 30, 40, 50));
+/* rest operator (...parameter) when we don't know how much values we get in that we use rest operator and its return an array*/
+
+const user = {
+    name: "Abc",
+    email: "abc@gmail.com"
+}
+
+function userDetails (anyObj) {
+    return `user name is ${anyObj.name} and user email is ${anyObj.email}`
+}
+
+// console.log(userDetails(user));
+// console.log(userDetails({
+//     name: "xyz",
+//     email: "syz@gmail.com"
+// }));
+
+
+const myArray = [100, 400, 200, 600]
+
+function getSecondValue(anyArray) {
+    return anyArray[1]
+}   
+
+// console.log(getSecondValue(myArray));
+console.log(getSecondValue([10, 20, 40, 60]));
