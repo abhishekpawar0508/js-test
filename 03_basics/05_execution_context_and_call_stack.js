@@ -46,3 +46,25 @@ New sandbox after it works complete it delete auto
 
 same new sandbox repeatition for result2 like result 1
 */
+
+
+/* 
+Call Stack: LIFO (Last In First Out)
+*/
+
+function one() {
+    console.log("one")
+    two()
+}
+
+function two(){
+    console.log("two")
+    three()
+}
+function three(){
+    console.log("three")
+} 
+
+one()
+two()
+three() 
